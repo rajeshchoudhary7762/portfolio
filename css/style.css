@@ -125,6 +125,10 @@ section .about {
     max-width: 1300px;
 }
 
+.testimonial-cont .col-item {
+    max-width: 100%;
+}
+
 .testimonial-cont .header .icon-cont {
     font-size: 4rem;
     height: 50px;
