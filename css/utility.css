@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* color palette */
+:root {
+    --dark-blue: #000a21;
+    --red-gold: #ffc33d;
+    --gold: #FFD700;
+    --light: #ddd;
+    --white: #ffffff;
+    --black: #000000;
+    --xlight: #acacac;
+    --green: #01ce37;
+    --pink: #f90067;
+    --sky-blue: #00b6f2;
+}
+
+body {
+    background-color: var(--dark-blue);
+}
+
+section {
+    margin: 0 5% 15rem;
+}
+
+img {
+    width: 100%;
+}
+
+.ff-lobster {
+    font-family: 'Lobster', cursive;
+}
+
+/* Font Size */
+
+.fs-xl {
+    font-size: 4rem;
+    line-height: 5.2rem;
+}
+
+.fs-l {
+    font-size: 2.8rem;
+}
+
+
+/* Font weight */
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fw-6 {
+    font-weight: 600;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+/* background color */
+.bg-golden {
+    background-color: var(--red-gold);
+}
+
+/* text color */
+.tc-gold {
+    color: var(--gold);   
+}
+
+.tc-red-gold {
+    color: var(--red-gold);
+}
+
+.tc-light {
+    color: var(--light);
+}
+
+.tc-xlight {
+    color: var(--xlight);
+}
+
+.tc-green {
+    color: var(--green);
+}
+
+.tc-pink {
+    color: var(--pink);
+}
+.tc-sky-blue {
+    color: var(--sky-blue);
+}
+
+/* text align */
+.ta-justify {
+    text-align: justify;
+}
+
+.active {
+    color: var(--red-gold) !important;
+}
+

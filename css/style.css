@@ -1,0 +1,134 @@
+.navbar {
+    margin: 0 12% 5%;
+    height: 80px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-logo-cont .logo a {
+    color: var(--gold);
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+}
+
+.nav-link-cont .link {
+    color: var(--light);
+    margin-left: 2rem;
+    font-weight: 500;
+    
+}
+
+.header {
+    max-width: 700px;
+}
+
+.round-img .person-img {
+    max-width: 135px;
+}
+
+.person-name::after {
+    content: ' />';
+}
+
+.person-name::before {
+    content: '< ';
+}
+
+.custom-btn {
+    border: none;
+    border-radius: 50px;
+    padding: 0.6rem 3rem;
+    font-size: 1.1rem;
+    background-color: var(--gold);
+
+}
+
+.custom-btn a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+section .about {
+    max-width: 950px;
+}
+
+.perform {
+    max-width: 500px;
+}
+
+.perform .img-cont {
+    width: 140px;
+    position: relative;
+}
+
+.perform .img-cont .no-cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.perform .img-cont .no-cont {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.no-cont .txt {
+    font-size: 0.7rem;
+}
+
+.services {
+    max-width: 1300px;
+}
+
+.col-item {
+    max-width: 95%;
+    padding: 1.3rem 1rem;
+    border-radius: 0.7rem;
+    background-color: rgba(75, 75, 75, 0.616);
+    color: var(--light);
+}
+
+.col-item .icon-cont span {
+    font-size: 2.7rem;
+    color: var(--red-gold);
+}
+
+.col-item:hover {
+    transition: all 0.2s;
+    color: var(--black);
+    background-color: var(--red-gold);
+}
+
+.col-item:hover .icon-cont span {
+    color: var(--black);
+}
+
+.item {
+    /* background: #848484; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--red-gold);
+}
+
+.item h4 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.portfolio-cont {
+    max-width: 1500px;
+}
+
+/* .owl-item {
+    max-width: 400px !important;
+} */

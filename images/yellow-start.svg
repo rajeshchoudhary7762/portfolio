@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.009132mm"
+   height="36.009132mm"
+   viewBox="0 0 36.009132 36.009132"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.4182379"
+     inkscape:cx="336.6854"
+     inkscape:cy="507.31967"
+     inkscape:window-width="1920"
+     inkscape:window-height="962"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="23.813547,40.847621"
+       orientation="0,-1"
+       id="guide20584"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.25806,-56.888109)">
+    <path
+       sodipodi:type="star"
+       style="fill:#ffe403;fill-opacity:0.925609;stroke:#5a5a5a;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+       id="path24151"
+       inkscape:flatsided="false"
+       sodipodi:sides="4"
+       sodipodi:cx="52.298393"
+       sodipodi:cy="73.249931"
+       sodipodi:r1="20.09556"
+       sodipodi:r2="10.248729"
+       sodipodi:arg1="0.89022093"
+       sodipodi:arg2="1.6756191"
+       inkscape:rounded="2.4286129e-17"
+       inkscape:randomized="0"
+       d="M 64.94333,88.868417 51.226059,83.442406 36.679907,85.894868 42.105919,72.177597 39.653456,57.631445 53.370727,63.057457 67.916879,60.604994 62.490868,74.322265 Z"
+       inkscape:transform-center-x="-1.6398724"
+       inkscape:transform-center-y="0.034892939"
+       transform="rotate(102.62449,52.622755,74.857783)" />
+  </g>
+</svg>
