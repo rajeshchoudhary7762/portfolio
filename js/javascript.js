@@ -25,7 +25,7 @@ $(document).ready(() => {
         loop:true,
         margin:25,
         nav:true,
-        // autoplay: true,
+        autoplay: true,
         responsive:{
             0: {
                 items:1
