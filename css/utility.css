@@ -18,6 +18,7 @@
     --green: #01ce37;
     --pink: #f90067;
     --sky-blue: #00b6f2;
+    --light-dark: rgba(75, 75, 75, 0.616);
 }
 
 body {
@@ -65,6 +66,9 @@ img {
 /* background color */
 .bg-golden {
     background-color: var(--red-gold);
+}
+.bg-light-dark {
+    background-color: var(--light-dark);
 }
 
 /* text color */

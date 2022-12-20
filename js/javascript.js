@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $('.owl-carousel').owlCarousel({
+    $('.portfolio-owl').owlCarousel({
         loop:true,
         margin:25,
         nav:true,
@@ -20,15 +20,22 @@ $(document).ready(() => {
             }
         }
     });
-    // $('.nonloop').owlCarousel({
-    //     center: true,
-    //     items:2,
-    //     loop:false,
-    //     margin:10,
-    //     responsive:{
-    //         600:{
-    //             items:4
-    //         }
-    //     }
-    // });
+
+    $('.testimonial-owl').owlCarousel({
+        loop:true,
+        margin:25,
+        nav:true,
+        autoplay: true,
+        responsive:{
+            0: {
+                items:1
+            },
+            600:{
+                items:2
+            },
+            900: {
+                items:3
+            }
+        }
+    });
 })

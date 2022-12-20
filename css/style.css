@@ -93,7 +93,7 @@ section .about {
     max-width: 95%;
     padding: 1.3rem 1rem;
     border-radius: 0.7rem;
-    background-color: rgba(75, 75, 75, 0.616);
+    background-color: var(--light-dark);
     color: var(--light);
 }
 
@@ -112,14 +112,6 @@ section .about {
     color: var(--black);
 }
 
-.item {
-    /* background: #848484; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--red-gold);
-}
-
 .item h4 {
     font-size: 3rem;
     font-weight: 600;
@@ -129,6 +121,16 @@ section .about {
     max-width: 1500px;
 }
 
-/* .owl-item {
-    max-width: 400px !important;
-} */
+.testimonial-cont {
+    max-width: 1300px;
+}
+
+.testimonial-cont .header .icon-cont {
+    font-size: 4rem;
+    height: 50px;
+}
+
+.testimonial-cont .col-item:hover {
+    background-color: var(--light-dark);
+    color: var(--light);
+}
