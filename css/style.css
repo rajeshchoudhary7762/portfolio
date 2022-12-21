@@ -138,3 +138,59 @@ section .about {
     background-color: var(--light-dark);
     color: var(--light);
 }
+
+section .contact {
+    max-width: 1400px;
+    padding: 4rem 0;
+}
+
+.contact-form {
+    max-width: 500px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: 2.5px solid var(--black);
+    outline: none;
+    background-color: var(--white);
+    font-weight: 500;
+}
+
+.contact-form .error-msg {
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.social-cont {
+    max-width: 500px;
+    padding: 2rem 6%;
+    border-radius: 10px;
+    background-color: var(--light-dark);
+}
+
+.social-cont .item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.social-cont .item span {
+    font-size: 1.8rem;
+    padding-right: 1rem;
+}
+
+.social-media-icons i {
+    font-size: 2rem;
+    display: block;
+    cursor: pointer;
+}
+
+.footer{
+    padding: 6rem 0 3rem;
+}
+
+.footer .developer {
+    font-size: 0.8rem;
+}

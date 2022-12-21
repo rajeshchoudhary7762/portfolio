@@ -25,8 +25,16 @@ body {
     background-color: var(--dark-blue);
 }
 
+.bs-margin {
+    margin: 0 5%;
+}
+
+.bs-padding {
+    padding: 0 5%;
+}
+
 section {
-    margin: 0 5% 15rem;
+    margin-bottom: 15rem !important;
 }
 
 img {
@@ -64,8 +72,11 @@ img {
 }
 
 /* background color */
-.bg-golden {
+.bg-red-gold {
     background-color: var(--red-gold);
+}
+.bg-gold {
+    background-color: var(--gold);
 }
 .bg-light-dark {
     background-color: var(--light-dark);
