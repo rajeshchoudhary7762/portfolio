@@ -38,4 +38,15 @@ $(document).ready(() => {
             }
         }
     });
+
+    //Sidenav
+    $('#openNav').click(() => {
+        $('.nav-link-cont').addClass('open-sidenav');
+        $('.overlay').addClass('enable-overlay');
+    })
+    $('#closeNav, .overlay').click(() => {
+        $('.nav-link-cont').removeClass('open-sidenav');
+        $('.overlay').removeClass('enable-overlay');
+    })
+
 })

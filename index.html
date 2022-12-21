@@ -16,20 +16,29 @@
 </head>
 <body>
     <div class="main-cont">
+        <div class="overlay"></div>
         <div class="navbar">
-            <div class="nav-logo-cont">
-                <div class="menu">
-                    <span></span>
+            <div class="nav-logo-cont d-inline-flex align-items-center">
+                <div class="menu tc-light fs-4 me-3 d-none" id="openNav">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
                 <div class="logo"><a href="#">Portfolio</a></div>
             </div>
             <div class="nav-link-cont d-inline-flex">
-                <a class="link active" href="#">Home</a>
-                <a class="link" href="#">Projects</a>
-                <a class="link" href="#">About Us</a>
+                <div class="sidenav-header ff-pacifico mt-3 fs-1 fw-5 mb-4 d-none">
+                    <div class="close-btn" id="closeNav">
+                        <span class="material-symbols-outlined fs-m text-dark">close</span>
+                    </div>
+                    Portfolio
+                </div>
+                <div class="main-link-cont">
+                    <a class="link active" href="#">Home</a>
+                    <a class="link" href="#">Projects</a>
+                    <a class="link" href="#">About Us</a>
+                </div>
             </div>
         </div>
-        <section>
+        <section class="bs-margin">
             <div class="header text-center mx-auto">
                 <div class="round-img mb-4">
                     <div class="person-img mx-auto mb-3">
@@ -37,7 +46,7 @@
                     </div>
                     <h3 class="text-light fw-bold">Hi, I'm <span class="tc-red-gold person-name">Rajesh</span></h3>
                 </div>
-                <div class="fs-xl ff-lobster text-light mb-5">
+                <div class="fs-xl ff-lobster tc-light mb-5">
                     Building Digital <br> Products, Brands and Experience.
                 </div>
                 <button class="custom-btn"><a href="#">Hire Me</a></button>

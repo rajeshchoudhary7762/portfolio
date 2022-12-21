@@ -152,7 +152,7 @@ section .contact {
     width: 100%;
     padding: 8px 15px;
     border-radius: 25px;
-    border: 2.5px solid var(--black);
+    border: 2px solid var(--black);
     outline: none;
     background-color: var(--white);
     font-weight: 500;
@@ -193,4 +193,92 @@ section .contact {
 
 .footer .developer {
     font-size: 0.8rem;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(56 56 56 / 42%);
+    z-index: 99;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.enable-overlay.overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .round-img .person-img {
+        max-width: 115px;
+    }
+    .navbar {
+        margin: 0 12% 12%;
+    }
+
+    .navbar .nav-logo-cont .menu {
+        display: block !important;
+    }
+
+    .nav-logo-cont .logo a {
+        font-size: 1.5rem;
+    }
+
+    .nav-link-cont {
+        position: fixed;
+        background-color: var(--red-gold);
+        height: 100vh;
+        max-width: 300px;
+        width: 80%;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        text-align: center;
+        padding: 1rem 0.8rem 0;
+        flex-direction: column;
+        transition: 0.3s;
+        -moz-transition: 0.3s;
+        transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+    }
+
+    .open-sidenav.nav-link-cont {
+        transform: translateX(0);
+        -moz-transform: translateX(0);
+    }
+
+    .nav-link-cont .main-link-cont {
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .nav-link-cont a.link {
+        color: var(--black);
+        margin: 0;
+        padding: 0.6rem 0;
+    }
+
+    .nav-link-cont a.active {
+        background-color: var(--dark-blue);
+        border-radius: 25px;
+        font-weight: 600;
+    }
+
+    .nav-link-cont .close-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .nav-link-cont .sidenav-header {
+        display: block !important;
+    }
 }

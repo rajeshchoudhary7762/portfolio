@@ -45,6 +45,10 @@ img {
     font-family: 'Lobster', cursive;
 }
 
+.ff-pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
 /* Font Size */
 
 .fs-xl {
@@ -54,6 +58,10 @@ img {
 
 .fs-l {
     font-size: 2.8rem;
+}
+
+.fs-m {
+    font-size: 2rem !important;
 }
 
 
@@ -117,5 +125,15 @@ img {
 
 .active {
     color: var(--red-gold) !important;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .fs-xl {
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+    
 }
 
