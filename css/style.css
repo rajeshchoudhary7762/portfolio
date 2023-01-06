@@ -145,7 +145,7 @@ section .contact {
 }
 
 .contact-form {
-    max-width: 500px;
+    width: 90%;
 }
 
 .contact-form input {
@@ -164,7 +164,7 @@ section .contact {
 }
 
 .social-cont {
-    max-width: 500px;
+    width: 90%;
     padding: 2rem 6%;
     border-radius: 10px;
     background-color: var(--light-dark);
@@ -280,5 +280,15 @@ section .contact {
 
     .nav-link-cont .sidenav-header {
         display: block !important;
+    }
+}
+
+/* @media only screen and (max-width: 499px) {
+} */
+
+@media only screen and (max-width: 399px) {
+    .contact-form,
+    .social-cont {
+        width: 100%;
     }
 }
