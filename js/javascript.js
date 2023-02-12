@@ -1,3 +1,8 @@
+//Disable Preloader
+$(window).on("load", function () {
+    $(".spinner-cont").addClass("d-none");
+});
+
 $(document).ready(() => {
     $('.portfolio-owl').owlCarousel({
         loop:true,
